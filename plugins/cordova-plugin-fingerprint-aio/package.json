@@ -1,0 +1,74 @@
+{
+  "_from": "cordova-plugin-fingerprint-aio@^1.5.0",
+  "_id": "cordova-plugin-fingerprint-aio@1.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-2Hqa1FVSG7NCzhO4lXh92UXkGHvaLy47q0aF39jpd1yJJr6ctDybU10HIKhe6QX1T4qVNiUuzksjqvV9eLPFng==",
+  "_location": "/cordova-plugin-fingerprint-aio",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-fingerprint-aio@^1.5.0",
+    "name": "cordova-plugin-fingerprint-aio",
+    "escapedName": "cordova-plugin-fingerprint-aio",
+    "rawSpec": "^1.5.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.5.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-fingerprint-aio/-/cordova-plugin-fingerprint-aio-1.6.0.tgz",
+  "_shasum": "3053060fc5a375d62ce6c5314cb2881d2b3b298b",
+  "_spec": "cordova-plugin-fingerprint-aio@^1.5.0",
+  "_where": "E:\\stpl\\contonsoujala\\contonsoujala",
+  "author": {
+    "name": "Niklas Merz"
+  },
+  "bugs": {
+    "url": "https://github.com/niklasmerz/cordova-plugin-fingerprint-aio/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-fingerprint-aio",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "dependencies": {
+    "cordova-plugin-add-swift-support": "^1.7.1"
+  },
+  "deprecated": false,
+  "description": "Cordova plugin to use fingerprint authentication on Android and iOS",
+  "devDependencies": {
+    "cordova-paramedic": "git+https://github.com/apache/cordova-paramedic.git",
+    "cordova-plugin-xml": "^0.1.2",
+    "eslint": "^5.7.0",
+    "jasmine": "^3.2.0"
+  },
+  "homepage": "https://github.com/niklasmerz/cordova-plugin-fingerprint-aio#readme",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "android",
+    "fingerprint",
+    "authentication",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-fingerprint-aio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklasmerz/cordova-plugin-fingerprint-aio.git"
+  },
+  "scripts": {
+    "plugin-version": "cordova-plugin-xml setVersion",
+    "test": "./node_modules/cordova-paramedic/main.js --plugin . --platform"
+  },
+  "version": "1.6.0"
+}

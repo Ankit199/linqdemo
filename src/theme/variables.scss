@@ -1,0 +1,294 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+
+// Font path is used to include ionicons,
+// roboto, and noto sans fonts
+$font-path: "../assets/fonts";
+
+
+// The app direction is used to include
+// rtl styles in your app. For more info, please see:
+// http://ionicframework.com/docs/theming/rtl-support/
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/theming/overriding-ionic-variables/
+
+
+
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$colors: (
+  primary:    #488aff,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222
+);
+
+
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+
+
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+
+
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+
+
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    src: url('../assets/fonts/MaterialIcons-Regular.eot');
+    src: url('../assets/fonts/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/MaterialIcons-Regular.woff2') format('woff2'),
+        url('../assets/fonts/MaterialIcons-Regular.woff') format('woff'),
+        url('../assets/fonts/MaterialIcons-Regular.ttf') format('truetype'),
+        url('../assets/fonts/MaterialIcons-Regular.svg#MaterialIcons-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ====== Dinot ====*/
+@font-face {
+	font-family: 'DINOT-Regular';
+	src: url('../assets/fonts/DINOT-Regular.eot');
+	src: local('☺'), url('../assets/fonts/DINOT-Regular.woff') format('woff'), url('../assets/fonts/DINOT-Regular.ttf') format('truetype'), url('../assets/fonts/DINOT-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'dinot-bold';
+	src: url('../assets/fonts/dinot-bold.eot');
+	src: local('☺'), url('../assets/fonts/dinot-bold.woff') format('woff'), url('../assets/fonts/dinot-bold.ttf') format('truetype'), url('../assets/fonts/dinot-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* === Droid Sans ===*/
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../assets/fonts/DroidSans.eot');
+    src: url('../assets/fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DroidSans.woff2') format('woff2'),
+        url('../assets/fonts/DroidSans.woff') format('woff'),
+        url('../assets/fonts/DroidSans.ttf') format('truetype'),
+        url('../assets/fonts/DroidSans.svg#DroidSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../assets/fonts/DroidSans-Bold.eot');
+    src: url('../assets/fonts/DroidSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../assets/fonts/DroidSans-Bold.woff2') format('woff2'),
+        url('../assets/fonts/DroidSans-Bold.woff') format('woff'),
+        url('../assets/fonts/DroidSans-Bold.ttf') format('truetype'),
+        url('../assets/fonts/DroidSans-Bold.svg#DroidSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* latin */
+@font-face {
+	font-family: 'Lato-Regular';
+	src: url('../assets/fonts/Lato-Regular.eot');
+	src: local('☺'), url('../assets/fonts/Lato-Regular.woff') format('woff'), url('../assets/fonts/Lato-Regular.ttf') format('truetype'), url('../assets/fonts/Lato-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Common CSS */
+ion-header ion-title{padding:0 10px !important;}
+ion-navbar .toolbar-background-md, ion-navbar .toolbar-background{border-color: #ed0101;background: #ed0101;}
+ion-navbar .toolbar-title-md, ion-navbar .toolbar-title{font-family: "DINOT-Regular", "Roboto", "Helvetica Neue", sans-serif; color: #fff; font-size: 16px; text-align: left;padding: 0;}
+h1{font-family: 'DINOT-Regular';font-size: 18px;}
+h2{font-family: 'DINOT-Regular';font-size: 14px;}
+h3{font-family: 'DINOT-Regular';font-size: 12px;}
+p{font-family: 'DINOT-Regular';font-size: 12px;}
+
+.gray-text{color:#a09f9d !important;;}
+.orange-text{color:#f7941d !important;;}
+.orange2-text{color:#ed0101 !important;;}
+.green-text{color:#1fa201 !important;;}
+.white-text{color:#fff !important;}
+.red-text{color:#d40202 !important;}
+.yellow-text{color:#ffb82f !important;}
+
+.bg-red{ background:#ed0101 !important;}
+.bg-lightred{ background:#e75c5b !important;}
+.bg-darkblue{ background:#695481 !important;}
+.bg-yellow{ background:#dcb428 !important;}
+.bg-green{ background:#49b173 !important;}
+.bg-grey{ background:#7e7e7e !important;}
+
+.relative{position:relative;}
+.clear{clear:both;}
+.mt0{margin-top:0px;}
+.font16{font-size:16px;}
+.font14 {font-size: 14px;}
+.wd100{width:100% !important;}
+.margin_none{margin:0px !important;}
+.pull-right{float:right;}
+.pull-left{float:left;}
+.text-left{text-align: left !important;}
+.text-center{text-align: center !important;}
+.text-right{text-align: right !important;}
+.block{display:block !important;}
+
+
+ion-card .item-md ion-icon[item-left] + .item-inner, ion-card .item-md ion-icon[item-left] + .item-input, ion-card .item-md ion-icon[item-start] + .item-inner, ion-card .item-md ion-icon[item-start] + .item-input {margin-left: 0;}
+ion-card .item-md.item-block .item-inner {padding-left: 0;}
+
+.bar-button-clear-md-default:hover:not(.disable-hover), ion-footer.orange-footer .bar-button-md-default:hover:not(.disable-hover){color:#fff;}
+
+.btn_disable{background-color: #ebeff2 !important; color:#d0d3d6 !important;border-radius: 0px; box-shadow: none; text-transform: none;height: 34px;font-size: 12px;text-shadow: 1px 1px 1px #fff;}
+.btn_disable:hover, .btn_disable:focus{background-color: #ebeff2 !important;}
+
+.ion-ios-pulse-outline::before {content: "\f1f2";font-family: "Ionicons";}
+
+.toolbar .searchbar-md {padding: 0 !important;}
+.searchbar-md .searchbar-input{padding: 0px 44px 3px 2px !important;}
+.searchbar-md .searchbar-search-icon{right: 48px !important;}
+
+.content{background: #f3f7fa !important;font-family: "DINOT-Regular", "Roboto", "Helvetica Neue", sans-serif;}
+
+ion-footer.static-footer{position: relative;width:100%;}
+ion-header .bar-button-default-md, ion-header .bar-button-clear-md-default, ion-header .bar-button-md-default{color: #fff !important;}
+.bold{font-weight:700;}
+
+
+/* Side Menu*/
+.menu-listing .item-block{color:#515151; padding-left: 0;font-size: 1.4rem;}
+.menu-listing.content {background: #fff !important;}
+.menu-listing .item-block .item-inner{padding: 12px 10px 12px 15px; border-bottom: 1px solid #ebebeb !important;}
+.menu-listing button.item-ios:not([detail-none]) .item-inner{padding: 2px 10px 2px 15px;}
+.menu-listing .item-block .item-inner .label-md{margin: 0;}
+.menu-listing .item-block .item-inner ion-icon{display: inline-block;vertical-align: middle;width: 24px;height: 24px; line-height: 24px; border-radius: 50%;text-align: center;padding: 0;color: #fff;margin-right: 10px;font-size: 14px; background:#00872a;}
+.md ion-footer.logout-menuitem .toolbar-md{padding: 0; padding-bottom: calc(constant(safe-area-inset-bottom) + 0px) !important; padding-bottom: calc(env(safe-area-inset-bottom) + 0px) !important;min-height: calc(60px + constant(safe-area-inset-bottom)) !important;min-height: calc(60px + env(safe-area-inset-bottom)) !important;}
+.logout-menuitem { background: #f5f5f5; font-size: 1.4rem;}
+.menu-listing .profile-item{ background: #ed0101; color: #fff; padding: 20px 0; margin-bottom: 5px; }
+.menu-listing .profile-item .item-inner {border-bottom: none !important; padding: 0 15px;}
+.profile-picture{ float: left; width: 70px; height: 70px; border-radius: 100%; border:1px solid #ff4444; overflow: hidden; margin-right: 10px; padding: 5px; }
+.menu-listing .profile-item h2.user-name{float: left;width: calc(100% - 85px); width: calc(100% - 85px); width: calc(100% - 85px);    margin: 7px 0 0;font-size: 1.8rem; color: #fff;}
+.menu-listing .profile-item .user-address{float: left;width: calc(100% - 85px); width: calc(100% - 85px); width: calc(100% - 85px);margin: 0;font-size: 1.4rem;}
+.profile-picture img{border-radius: 100%;}
+.profile-edit{ position: absolute;  right: 0; top:5px; color: #fff; }
+.profile-edit .ion-md-create:before {content: "\f164"; font-size: 20px;}
+
+.menu-listing .item-block .item-inner span {background: #fff;font-size: 1.2rem;color: #dc5352;text-align: center;width: auto;padding: 3px 10px;border-radius: 20px;float: right;margin: 5px 3px 0 0;border: 1px solid  #ebebeb}
+.menu-icon:before{cursor: pointer;font-size: 1.1em;margin-right: 5px;vertical-align: middle;}
+
+/*New App*/
+a{color: #ed0101;}
+a:hover{color: #db0404;}
+.button{border-radius: 0;overflow: hidden;height: 44px;font-size: 16px;font-weight: 600;text-transform: capitalize;color: #fff !important;background-color:#ed0101;-webkit-box-shadow: none;box-shadow: none;-webkit-transition: none;transition: none;transition: none;transition: none;margin: 10px auto;padding: 0 15px;width: 100%;}
+.button:hover:not(.disable-hover) {background-color: #db0404;}
+.bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default{color:#fff !important;text-transform: uppercase !important;font-size: 14px !important;}
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{color:#fff !important;text-transform: uppercase !important;font-size: 14px !important;}
+
+/*Footer*/
+ion-footer .toolbar-background {border-color: transparent;background-color:#ed0101 !important;}
+ion-footer ion-title {padding: 0!important;}
+ion-footer.login-footer .toolbar-title {font-size: 16px; line-height: 26px; font-weight: 700; color: #fff;text-align: center;}
+ion-footer.login-footer .toolbar-title span{padding: 0 2px;font-size: 12px;font-weight: 400;color: #b6b6b6; vertical-align: middle;}
+ion-footer.login-footer .toolbar-title .material-icons {background: #fff; width: 24px; height: 24px;border-radius: 50%; color: #ed0101; line-height: 24px; text-align: center; margin: 10px 0;font-size:14px !important;}
+
+ion-footer ion-buttons{text-align:center;}
+.bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default{color:#fff; text-align:center;}
+ion-footer .toolbar-title span{padding: 0 2px;font-size: 12px;font-weight: 400;color: #b6b6b6; vertical-align: middle;}
+ion-footer .toolbar-title .material-icons {background: #fff; width: 24px; height: 24px;border-radius: 50%; color: #ed0101; line-height: 24px; text-align: center; margin: 10px 0;font-size:14px !important;}
+
+/*Toggle On Off*/
+.onoffswitch-wrap{margin: 10px 0;}
+.onoffswitch-wrap ion-label{padding-left:3px; margin: 0px;font-size: 12px;}
+.onoffswitch {position: relative; width: 44px;float: left;-webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;}
+.onoffswitch-checkbox {display: none;}
+.onoffswitch-label {display: block; overflow: hidden; cursor: pointer;border-radius: 20px;}
+.onoffswitch-inner {display: block; width: 200%; margin-left: -100%;transition: margin 0.3s ease-in 0s;}
+.onoffswitch-inner:before, .onoffswitch-inner:after {display: block; float: left; width: 50%; height: 16px; padding: 0; line-height:16px;font-size: 10px; color: #fff; font-weight: 300;box-sizing: border-box;font-family: 'Saira';}
+.onoffswitch-inner:before {content: "ON";padding-left: 10px;background-color: #56a80e; color: #fff;}
+.onoffswitch-inner:after {content: "OFF";padding-right: 6px;background-color: #868686; color: #fff;text-align: right;}
+.onoffswitch-switch {display: block; width: 12px; height:12px; margin: 3px;background: #FFFFFF;position: absolute; top: -1px; bottom:0;right: 26px;border: 1px solid #fff; border-radius: 20px;transition: all 0.3s ease-in 0s;}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {margin-left: 0;}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {right: 0px;}
+
+@media screen and (max-width: 320px){
+  .menu-listing .profile-item{ padding: 0; }
+  .menu-listing .profile-item .item-inner {padding: 15px 15px 15px 10px;}
+  .profile-edit{right: -5px; top:0;}
+  .menu-listing .item-block .item-inner span{ font-size: 1rem; }
+}

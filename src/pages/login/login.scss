@@ -1,0 +1,52 @@
+page-login {
+.sub_header{background:#ed0101; width: 100%; height: 36px; line-height: 36px; text-align: center; font-size: 16px; color: #fff;width: calc(100% + 60px);    margin-left: -30px;}
+	
+.login-page{margin:0px; padding: 0px;}
+.login-bg{background:#c10505; min-height: 220px;}
+.logo{padding: 40px 0; text-align: center; text-align: center;}
+.logo img{max-width: 100%; max-height: 46px;}
+.login-form{width: 90%;background:#fff; padding: 0 20px 30px; box-sizing: border-box; box-shadow: 0 0 4px #c6c9cc;margin: auto;position: relative;top:-100px;border: solid 1px #fafafb;}
+
+.input-wrap{position: relative;}
+.input-wrap .material-icons{position: absolute;left: 0;z-index: 1;bottom: 6px;color: #7a7a7a;font-size: 20px;}
+.item-md.item-block .item-inner{padding-left: 30px;}
+.login-form ion-item{position: relative;padding: 0;}
+
+.login-form ion-label{padding-left: 32px;}
+.item-input-has-focus .label-md[floating], .input-has-focus .label-md[floating], .item-input-has-value .label-md[floating], .input-has-value .label-md[floating]{color:#00872a}
+.item-ios.item-label-stacked .text-input, .item-ios.item-label-floating .text-input, .item-label-stacked .text-input-md, .item-label-floating .text-input-md, .item-label-stacked .text-input-wp, .item-label-floating .text-input-wp, .item-label-stacked .select-wp, .item-label-floating .select-wp {margin-top: 5px;}
+
+.item-input ion-input:focus, .item-input ion-textarea:focus {border-bottom: solid 1px #dedede;}
+.item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner {border-bottom-color: #dedede; -webkit-box-shadow: inset 0 -1px 0 0 transparent; box-shadow: inset 0 -1px 0 0 transparent;}
+
+.item-label-stacked .text-input-wp, .item-label-floating .text-input-wp, .item-label-stacked .select-wp, .item-label-floating .select-wp{border-bottom: 0.55px solid #c8c7cc;}
+
+
+.login-form .label-md[stacked], .label-md[floating] {position: relative; padding: 0;}
+.login-form .button {border-radius: 0;overflow: hidden;height: 44px;font-size: 16px;font-weight: 600;text-transform: capitalize;color: #fff;background-color:#ed0101;-webkit-box-shadow: none;box-shadow: none;-webkit-transition: none;transition: none;transition: none;transition: none;margin: 10px auto;padding: 0 15px;width: 100%;}
+.login-form .button:hover:not(.disable-hover) {background-color: #db0404;}
+
+.login-form p{font-family: 'DINOT-Regular';text-align: center; font-size: 12px; line-height: 16px; color: #ed0101;margin: 10px 0;padding: 0;}
+
+.page-login .item-ios.item-label-floating .text-input{margin-left: 25px !important;}
+
+@media only screen and (min-width: 1240px) {
+.item-input ion-input, .item-input ion-textarea{padding-left:0px;}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.item-input ion-input.input-ios, .item-input ion-textarea{padding-left:0px;}
+.item-label-stacked .text-input-ios, .item-label-floating .text-input-ios{padding-left:25px;}
+
+.item-input-has-value .label-ios[floating], .input-has-value .label-ios[floating], .input-has-focus .label-ios[floating], .item-input-has-focus .label-ios[floating] {color: #00872a;} 
+.item-input .label-ios, .item-select .label-ios, .item-datetime .label-ios{color:#999;}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0){ 
+.item-input ion-input.input-md, .item-input ion-textarea{padding-left:0px;}
+.item-label-stacked .text-input-md:not, .item-label-floating .text-input-md{padding-left:0px;}
+}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fmPilot_new_ui",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

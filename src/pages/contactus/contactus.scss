@@ -1,0 +1,21 @@
+page-contactus {
+.logo{display: inline-block;margin: auto;text-align: center;position: absolute;right: 6px;}
+.logo img{max-height: 20px;}
+.text-center{text-align:center !important;}
+ion-card{padding:0 0 10px 0 !important;width: 100% !important;margin: 0 !important; text-align:center; font-size:14px; line-height:24px; min-height:140px;}
+ion-card ion-icon {font-size: 13px;color: #999;}
+ion-card img{max-width:100% !important; width:auto;display: inline-block;}
+ion-card p{margin: 10px !important;text-align: center;color: #fff !important;background: #ed0101; line-height:26px !important;}
+ion-card .button{width: auto;border-radius: 30px;height: 30px;display: table;font-size: 14px;background: #fff;
+border: solid 2px #ed0101;color: #ed0101;}
+ion-card .button:hover{width: auto;border-radius: 30px;height: 34px;display: table;font-size: 14px;background: #fff;
+border: solid 2px #ed0101;color: #ed0101;}
+h2{color: #00872a;font-size: 16px;line-height: 26px;font-weight: 700; margin:0px; padding:0px;width: 100%;padding: 10px;text-align: center}
+h2 span{color: #ed0101;font-size: 18px;}
+
+@media only screen and (max-width: 360px) {
+ion-card p{font-size:12px !important;}
+}
+}
+
+

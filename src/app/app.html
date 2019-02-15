@@ -1,0 +1,37 @@
+<ion-menu [content]="content" [swipeEnabled]="false">
+  <ion-content class='menu-listing'>
+    <ion-item class="profile-item" menuClose>
+      <div class="profile-picture"> <img src="../../assets/images/no_img.jpg" /> </div>
+      <h2 class="user-name">Contoso Ujala</h2>
+      <div class="user-address">Lucknow</div>
+    </ion-item>
+    <ion-list menuClose>
+      <button ion-item (click)="GoToDashboard()">
+      <ion-icon name="speedometer"></ion-icon>
+      डैशबोर्ड (Dashboard)</button>
+      <button ion-item (click)="GoToPlan()">
+      <ion-icon name="bulb"></ion-icon>
+      योजना (Plan)</button>
+      <button ion-item (click)="GoToBonus()">
+      <ion-icon name="trophy"></ion-icon>
+      बोनस अंक (Bonus Point)</button>
+      <button ion-item (click)="GoToUphaar()">
+      <ion-icon name="megaphone"></ion-icon>
+      उपहार (Gift)</button>
+      <button ion-item (click)="GoToRules()">
+      <ion-icon name="clipboard"></ion-icon>
+      नियम और शर्तें (Rules and Regulations)</button>
+      <button ion-item (click)="GoToContact()">
+      <ion-icon name="call"></ion-icon>
+      सम्पर्क करें (Contact Us)</button>
+    </ion-list>
+    <ion-footer class='logout-menuitem' menuClose>
+      <ion-toolbar>
+        <button ion-item nav-clear menu-close (click)="GoTologin()">
+        <ion-icon name="exit" class="bg-red"></ion-icon>
+        Log Out </button>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-content>
+</ion-menu>
+<ion-nav id="nav" #content [root]="rootPage"></ion-nav>

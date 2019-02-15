@@ -1,0 +1,12 @@
+page-rules {
+.logo{display: inline-block;margin: auto;text-align: center;position: absolute;right: 6px;}
+.logo img{max-height: 20px;}
+ion-card{padding:5px !important;width: calc(100% - 10px);}
+ion-card img{max-width:100% !important; width:auto;}
+ion-card p{margin: 20px 10px !important;text-align: center;}
+h2{color: #00872a;font-size: 16px;font-weight: 700; margin:0px; padding:0px;width: 100%;padding: 10px;text-align: center}
+ion-col{font-size:12px;}
+ol{margin: 0;padding: 0 0 0 20px;}
+ol li{margin:0 0 20px;}
+}
+

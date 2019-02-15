@@ -1,0 +1,13 @@
+page-bonuspoint {
+.logo{display: inline-block;margin: auto;text-align: center;position: absolute;right: 6px;}
+.logo img{max-height: 20px;}
+ion-card{padding:5px !important;width: calc(100% - 10px);}
+h2{color: #00872a;font-size: 16px;font-weight: 700; margin:0px; padding:0px;width: 100%;padding: 10px;text-align: center}
+ion-col{font-size:12px;}
+table{width:100%;}
+table thead{background:#ed0101; color:#fff;}
+table th, table td{font-size:12px; text-align:left; padding: 5px 2px;border-bottom: solid 1px #e2e2e2;border-right: solid 1px #e2e2e2;}
+table th:first-child, table td:first-child{border-left: solid 1px #e2e2e2;}
+table th{font-weight:700;}
+}
+
